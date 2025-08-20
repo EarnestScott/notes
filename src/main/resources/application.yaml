@@ -1,0 +1,8 @@
+# In application.yml
+spring:
+    application:
+        name: notes
+    ai:
+        openai:
+            api-key:: ${OPENAI_API_KEY}
+
