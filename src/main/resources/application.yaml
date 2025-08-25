@@ -2,6 +2,11 @@
 spring:
     application:
         name: notes
+    datasource:
+        url: jdbc:postgresql://localhost:5432/postgres
+        username: postgres
+        password: postgres
+        driver-class-name: org.postgresql.Driver
     ai:
         openai:
             api-key:: ${OPENAI_API_KEY}
